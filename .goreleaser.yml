@@ -1,0 +1,8 @@
+builds:
+  - binary: run-with-schedule
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
